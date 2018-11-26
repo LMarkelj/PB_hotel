@@ -1,7 +1,7 @@
 # PB_hotel
 
 Avtor:
-    * Luka Markelj
+* Luka Markelj
     
 Seminrska pri predmetu PB1
 
