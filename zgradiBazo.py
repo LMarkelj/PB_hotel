@@ -3,11 +3,11 @@ import sqlite3
 
 def pobrisi_tabele(cur):
     '''Pobrise tabele iz baze'''
-    cur.execute("DROP IF EXISTS gost;")
-    cur.execute("DROP IF EXISTS soba;")
-    cur.execute("DROP IF EXISTS zaposeni;")
-    cur.execute("DROP IF EXISTS vpis;")
-    cur.execute("DROP IF EXISTS skrbi;")
+    cur.execute("DROP TABLE IF EXISTS gost;")
+    cur.execute("DROP TABLE IF EXISTS soba;")
+    cur.execute("DROP TABLE IF EXISTS zaposeni;")
+    cur.execute("DROP TABLE IF EXISTS vpis;")
+    cur.execute("DROP TABLE IF EXISTS skrbi;")
 
 def ustvari_tabelo_gost(cur):
     '''Ustvari tabelo gost'''
